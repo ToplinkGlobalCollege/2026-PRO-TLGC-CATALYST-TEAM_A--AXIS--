@@ -6,7 +6,7 @@ Matthew is a Grade 12 student at Toplink Global College Inc., He excels at mergi
 
 
 **Kate Asly S. Gabuat**                                                                                                                                       
-**Team Placer/Builder**                                                                                                                                            
+**Team Placer**                                                                                                                                            
 **Age:15**
 
 Kate is a Grade 11 student at Top Link Global College Inc. She is hardworking and passionate about technology. She enjoys learning new things and improving her skills. Her achievement shows her dedication and effort.
