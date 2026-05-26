@@ -31,10 +31,12 @@ Our team consists of two dedicated members who carefully manage the key aspects 
 > [!NOTE]
 > The team information is at the docs folder
 # Materials
-Our autonomous self driving car was developed using the LEGO Mindstorms EV3 Education Set (45544) and LEGO Mindstorms Education EV3 Expansion Set (45544)
+Our autonomous self-driving car was developed using the LEGO Mindstorms EV3 Education Set (45544), the LEGO Mindstorms Education EV3 Expansion Set (45560), the LEGO Education Spike Prime Set (45678), and the LEGO Education Spike Prime Expansion Set (45681).
 
 ![45544-1-0-removebg-preview](https://github.com/user-attachments/assets/7b6e5ab7-0c0d-43d3-89e1-20ac8d9be258)
 <img width="500" height="500" alt="Lego Mindstrom Expansion Set " src="https://github.com/user-attachments/assets/54831924-3041-4191-8ca0-946f1caf6f2f" />
+<img width="500" height="500" alt="Untitled_design__1_-removebg-preview (1)" src="https://github.com/user-attachments/assets/17d61d32-e4d8-476a-b13b-c25a3b605029" />
+
 
 
 > [!NOTE]
