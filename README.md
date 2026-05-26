@@ -62,9 +62,9 @@ The medium motor at the back gives the robot its main driving power. It provides
 
 ## Engineering Principle
 
-Based on a simple engineering principle "Use the right tool for the right job". Steering doesn’t need a lot of power instead it needs to be quick and light. That’s why we chose the large motor. It’s smaller, faster, and helps the robot turn smoothly without slowing it down. Driving the robot forward, on the other hand, needs strength and stability. That’s where the medium motor comes in. It’s more powerful and gives the robot the force it needs to move across the mat with steady speed and control. Putting it at the back also helps the robot stay balanced and keeps the rear wheels from slipping.
+Based on a simple engineering principle "Use the right tool for the right job". Steering doesn’t need a lot of power instead it needs to be quick and light. That’s why we chose the medium motor. It’s smaller, faster, and helps the robot turn smoothly without slowing it down. Driving the robot forward, on the other hand, needs speed and stability. That’s where the medium motor comes in. It’s more powerful and gives the robot the force it needs to move across the mat with steady speed and control. Putting it at the back also helps the robot stay balanced and keeps the rear wheels from slipping.
 
-This setup follows the principle of separating movement and control we use a light motor for turning and a strong motor for moving. It makes the robot easier to steer, stronger when driving, and overall more reliable during the competition.
+This setup follows the principle of separating movement and control we use a light motor for turning and a also a light motor for moving. It makes the robot easier to steer, stronger when driving, and overall more reliable during the competition.
 
 ## Execution Of Steering
 <img width="1748" height="1542" alt="594416686-4500c59e-d3fb-4212-8533-50a6d324cdd0" src="https://github.com/user-attachments/assets/f1f75765-4633-4745-8326-f916322daeb4" />
