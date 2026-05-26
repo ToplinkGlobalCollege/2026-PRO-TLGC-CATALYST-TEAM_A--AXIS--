@@ -1,5 +1,5 @@
 ## Full View
-<img width="800" height="600" alt="Axis-1" src="https://github.com/user-attachments/assets/bb918625-6a78-47c5-b791-4e86bc594966" />
+<img width="800" height="600" alt="Axis-1" src="https://github.com/user-attachments/assets/219c1934-fdd3-454f-b801-0efebbdfeed4" />
 
 ## Right Side view
 <img width="4080" height="3072" alt="596451725-c0c6fed2-b2be-4641-8ed6-184dada046eb" src="https://github.com/user-attachments/assets/2267fbe7-d274-4934-8341-4f8c656250b8" />
@@ -14,7 +14,7 @@
 <img width="4080" height="3072" alt="596526716-81b71986-7337-44f4-ae40-b7cf4d204633" src="https://github.com/user-attachments/assets/fae5ec8b-1c8b-495c-8cf2-3f36185731fa" />
 
 ## Top View
-<img width="4080" height="3072" alt="596448752-facf7f99-a832-4d83-9281-077a82428a9a" src="https://github.com/user-attachments/assets/73beb40d-b53b-4532-9ff9-8224540e065b" />
+<img width="8160" height="6144" alt="IMG20260526101222" src="https://github.com/user-attachments/assets/8d7fc474-e77d-423c-b229-a7dc5f0c47b3" />
 
 ## Bottom View
-<img width="4080" height="3072" alt="596524734-e2d3a482-ebe8-46f5-90db-9185b3005993" src="https://github.com/user-attachments/assets/c937df8b-a1e4-4bfa-91f8-dfe539252fe6" />
+<img width="8160" height="6144" alt="IMG20260526101432" src="https://github.com/user-attachments/assets/d65fe75a-a70f-42c7-828b-9f53fc46cbf4" />
