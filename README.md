@@ -84,14 +84,14 @@ Our robot uses  one ultrasonic sensors to measure how close it is to the wall of
 
 <img width="2048" height="1542" alt="594418902-6b72debe-41e1-4fee-8b2b-fb9013fa1f6d" src="https://github.com/user-attachments/assets/d9e710c6-d39a-465f-8784-477d9d4a989a" />
 
-At first, our robot used color sensor which detects colors on the sides of the field to know when to turn. If it detects a color, it would turn in that direction according to the color detected. This method worked at the start, but it wasn’t always reliable sometimes the colors were hard to detect due to lighting or faded markings. To make things more stable, we switched to using the ultrasonic sensors to guide the robot using the walls. These sensors measure how close the robot is to each side of the field. When both sides show the same distance, the robot stays centered. If one side gets too close to the wall, it gently turns to correct itself. This wall following method made the robot more accurate and allowed it to turn smoothly without needing color lines at all.
+At first, our robot used color sensor which detects colors on the sides of the field to know when to turn. If it detects a color, it would turn in that direction according to the color detected. This method worked at the start, but it wasn’t always reliable sometimes the colors were hard to detect due to lighting or faded markings. To make things more stable, we switched to using an ultrasonic sensor to guide the robot using the wall. This sensor measures how close the robot is to the wall. When it shows the correct distance, the robot stays centered. If it gets too close to the wall, it gently turns to correct itself. This wall following method made the robot more accurate and allowed it to turn smoothly without needing color lines at all.
 
 ### Gyro Sensor
 <img width="2048" height="1542" alt="594418140-59d89c29-5980-4b46-9f31-eebf243698d9" src="https://github.com/user-attachments/assets/1c4c6fc9-b25c-4438-8220-0dc17f0249f0" />
 
 A gyro sensor is attached, It helps the robot measure how many full turns or laps it has made. One full spin is 360 degrees, so the sensor keeps adding up the angle as the robot rotates. We programmed the robot to stop when it reaches 1100 degrees, which is just a little more than three full laps. This lets the robot turn around smoothly and return close to its starting point. Once it reaches that point, it stops, making sure it doesn’t over rotate or get off track.
 
-### Pixy Camera 2
+### Pixy Camera 
 <img width="2048" height="1542" alt="594418416-fad3422c-f138-49a5-b47d-026d1efa0f36" src="https://github.com/user-attachments/assets/cd4b55bd-6bbd-410d-ac02-33bbe63816cf" />
 
 Our robot uses a pixy2 camera helps the robot detect colored objects in front of it. In our setup, it looks for two specific colors: green and red. These colors tell the robot which way to go when it sees an obstacle. If the Pixy2 sees a green object, the robot knows it should turn left. If it sees a red object, the robot will turn right. This helps the robot make quick decisions during the run and choose the correct path based on what color it detects ahead.
