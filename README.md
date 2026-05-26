@@ -36,8 +36,7 @@ Our autonomous self-driving car was developed using the LEGO Mindstorms EV3 Educ
 ![45544-1-0-removebg-preview](https://github.com/user-attachments/assets/7b6e5ab7-0c0d-43d3-89e1-20ac8d9be258)
 <img width="500" height="500" alt="Lego Mindstrom Expansion Set " src="https://github.com/user-attachments/assets/54831924-3041-4191-8ca0-946f1caf6f2f" />
 <img width="500" height="500" alt="Untitled_design__1_-removebg-preview (1)" src="https://github.com/user-attachments/assets/17d61d32-e4d8-476a-b13b-c25a3b605029" />
-
-
+<img width="500" height="500" alt="Untitled_design__2_-removebg-preview" src="https://github.com/user-attachments/assets/2fd129e9-4cd0-489d-a3e3-3dafb21b0e60" />
 
 > [!NOTE]
 > The list of the materials used in our robot is inside the hardware folder
@@ -45,7 +44,7 @@ Our autonomous self-driving car was developed using the LEGO Mindstorms EV3 Educ
 # Chassis
 
 ## Selection Of Wheel
-<img width="2048" height="1542" alt="whelylylylyl" src="https://github.com/user-attachments/assets/fbfb1a14-e590-4450-976d-681aac965f25" />
+<img width="2048" height="1542" alt="596521804-fbfb1a14-e590-4450-976d-681aac965f25" src="https://github.com/user-attachments/assets/d823c948-3639-4ca7-9778-ef7043c8207b" />
 
 We selected the Wheel 44309 with Rim 56145 at the front and the Wheel 56145 with Rim 44309 at the rear to optimize our robot’s performance on a mat field. The front wheels are lightweight and have a low friction, narrow profile, which allows for quick, smooth turns with minimal resistance perfect for precise navigation on a smooth surface. Their design supports agile repositioning during autonomous routines where accuracy and responsiveness are critical. This configuration delivers an ideal balance of maneuverability at the front and powerful drive at the back, allowing the robot to move efficiently, accurately, and reliably on a mat based competition field
 
