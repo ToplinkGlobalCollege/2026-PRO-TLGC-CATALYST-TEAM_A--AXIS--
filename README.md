@@ -52,7 +52,7 @@ We selected the Wheel 44309 with Rim 56145 at the front and the Wheel 56145 with
 ## Execution of Motors And Its Engineering Factor
 
 ### Motor Used For Steering
-<img width="2048" height="1542" alt="received_97385334505528" src="https://github.com/user-attachments/assets/a6c4d65e-ab59-4484-84a5-0a2e977df07a" />
+<img width="2048" height="1542" alt="594414053-a6c4d65e-ab59-4484-84a5-0a2e977df07a" src="https://github.com/user-attachments/assets/1ac0db55-e897-42b9-8a1d-b3b9a9f6fd75" />
 
 The medium motor is small and fast, which makes it perfect for turning the front wheels quickly and smoothly. This helps the robot steer accurately when changing direction or making turns on the mat.
 
