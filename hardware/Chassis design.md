@@ -15,14 +15,3 @@
 
 ## Left View
 <img width="4080" height="3072" alt="IMG20260516161002" src="https://github.com/user-attachments/assets/f3698c28-f8df-43dc-b237-d289cb2a7454" />
-
-
-
-
-
-
-
-
-
-
-
