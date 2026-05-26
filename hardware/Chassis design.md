@@ -1,8 +1,8 @@
 ## Top View
-<img width="4080" height="3072" alt="IMG20260522090026" src="https://github.com/user-attachments/assets/facf7f99-a832-4d83-9281-077a82428a9a" />
+<img width="8160" height="6144" alt="IMG20260526101222" src="https://github.com/user-attachments/assets/03e0d033-1b65-4d2f-b346-a85d3633f112" />
 
 ## Bottom View
-<img width="4080" height="3072" alt="IMG20260522101452" src="https://github.com/user-attachments/assets/e2d3a482-ebe8-46f5-90db-9185b3005993" />
+<img width="8160" height="6144" alt="IMG20260526101432" src="https://github.com/user-attachments/assets/6817b40c-6041-4b21-a83b-f97ca218aeb4" />
 
 ## Front View
 <img width="4080" height="3072" alt="IMG20260516161145" src="https://github.com/user-attachments/assets/b6c22747-5301-412e-9887-93a587815160" />
