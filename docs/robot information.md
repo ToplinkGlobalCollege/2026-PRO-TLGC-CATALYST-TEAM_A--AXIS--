@@ -1,5 +1,5 @@
 # Robot info
-<img width="800" height="600" alt="Axis-1" src="https://github.com/user-attachments/assets/2bfe60da-13ec-48ea-bfa7-d2e7e2e48827" />
+<img width="800" height="600" alt="Axis-1" src="https://github.com/user-attachments/assets/ba8798f1-f9b3-422b-858a-d03afb3b4edc" />
 
 **Name:** Axis 
 
@@ -46,7 +46,7 @@ Our EV3 robot uses a custom rack-and-pinion steering mechanism for the front whe
 
 ## Motors Used
 ### Medium Motor
-<img width="333" height="333" alt="467365645-b7e79cc4-5961-4763-a34b-bb36f2e45b51" src="https://github.com/user-attachments/assets/c9c5783b-2a71-4b0c-8473-82a2a08ac405" />
+<img width="333" height="333" alt="597100100-c9c5783b-2a71-4b0c-8473-82a2a08ac405" src="https://github.com/user-attachments/assets/e8fadf56-2edd-4755-9561-5e4595f5cc35" />
 
 ## Why we chose this system
 We used two Medium Motors to drive our robot because they are compact, lightweight, and provide plenty of power when working together. Instead of using a separate motor just for steering, this dual-motor setup drives both wheels independently to move the robot smoothly across the mat and ensure precise straight driving. The Medium Motors are smaller and quicker than the Large Motors, which keeps the robot from becoming too heavy or bulky while still offering incredible control during turns. This combination of two agile motors helped make our robot both powerful and easy to maneuver.
@@ -54,7 +54,7 @@ We used two Medium Motors to drive our robot because they are compact, lightweig
 # Power System
 ## Main Power Source
 We’ve powered our self driving car using the EV3 rechargeable battery, which provides a stable energy supply to ensure smooth and consistent operation. This battery serves as the main power source for our robot.
-<img width="1335" height="1696" alt="5939e7b1-b03f-4d41-bfef-d27653e3c9d5" src="https://github.com/user-attachments/assets/dc16675f-c9b1-4f9a-af9c-73ef00aab6f4" />
+<img width="1335" height="1696" alt="465793506-5939e7b1-b03f-4d41-bfef-d27653e3c9d5" src="https://github.com/user-attachments/assets/c4625758-a31d-4f06-9d3d-d635932a5730" />
 
 ## Voltage and Current Details
 Our EV3 robot is powered by a 7.2V rechargeable lithium-ion battery with a 2050 mAh capacity. This allows it to deliver 2.05 amps of current for a full hour, though actual runtime varies based on the robot's power consumption. The battery simultaneously powers the EV3 brick, motors, and sensors while maintaining a stable voltage for consistent performance. Compared to disposable batteries, this rechargeable option is far more convenient and cost-effective, making it ideal for extended practice sessions and competitions.
@@ -66,7 +66,7 @@ To ensure the EV3 robot's safety and reliability, we implemented strict power ma
 
 ## Sensors Used for Detection
 ### Pixy Cam 2
-<img width="645" height="634" alt="pixy2_3_result" src="https://github.com/user-attachments/assets/5753737b-6624-4d70-8d01-149ea59d3588" />
+<img width="645" height="634" alt="597102144-5753737b-6624-4d70-8d01-149ea59d3588" src="https://github.com/user-attachments/assets/b6dd1ca9-e413-4725-981c-38c08d7ff4fc" />
 
 To improve our robot’s ability to detect visual markers and environmental cues, we mounted the Pixy Cam on top of the robot. This elevated position gives the camera a wider field of view, allowing it to detect obstacles from a greater distance and with fewer blind spots. Placing the camera higher also prevents it from being blocked by parts of the robot’s frame, which improves both its accuracy and response time during object recognition.
 
