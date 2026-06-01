@@ -56,7 +56,7 @@ The medium motor is small and fast, which makes it perfect for turning the front
 ### Motor Used For Power
 <img width="2048" height="1542" alt="3" src="https://github.com/user-attachments/assets/dbb6cc4a-45cd-4d17-a2cd-9aafa280be94" />
 
-The medium motor at the back gives the robot its main driving power. It provides strong and steady movement, allowing the robot to move with good speed and stability. This setup—steering in the front and power in the back—keeps the robot balanced and allows it to move smoothly, turn precisely, and stay in control on the mat field during the competition.
+The medium motor at the back gives the robot its main driving power. It provides strong and steady movement, allowing the robot to move with good speed and stability. This setup steering in the front and power in the back keeps the robot balanced and allows it to move smoothly, turn precisely, and stay in control on the mat field during the competition.
 
 ## Engineering Principle
 
