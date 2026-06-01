@@ -7,3 +7,19 @@ We started by building the basic robot body and wheels. The first version used o
 <img width="1920" height="957" alt="595279086-8e07244a-f7e0-48da-b779-4b3fc7239896" src="https://github.com/user-attachments/assets/5650d3ba-5c3b-482f-86db-edd62519c7b1" />
 <img width="1920" height="957" alt="595279374-9bc576e6-3e48-49a7-b212-0bd46aeb0fd8" src="https://github.com/user-attachments/assets/8c5c3ea4-bb8e-421c-8ccd-d27090b95916" />
 <img width="1920" height="957" alt="597301863-02ecadeb-1ecf-4c09-b3fb-0b44c70fd7f3" src="https://github.com/user-attachments/assets/e99b8bde-b038-4e3a-889d-6f971e12fbd8" />
+
+### 1.1
+<img width="1920" height="957" alt="1" src="https://github.com/user-attachments/assets/339bff2c-c6c0-4e60-9313-954f69999a1f" />
+<img width="1920" height="957" alt="2" src="https://github.com/user-attachments/assets/4a9ab03e-8c66-4d58-b364-819ecd205435" />
+<img width="1920" height="957" alt="3" src="https://github.com/user-attachments/assets/b62796bf-d0c0-404a-a4fa-7381936dab70" />
+<img width="1920" height="957" alt="4" src="https://github.com/user-attachments/assets/3874719f-0fb5-45fd-a7b0-42a0c44d0661" />
+<img width="1920" height="957" alt="5" src="https://github.com/user-attachments/assets/fa5bf8b0-a6a1-42e8-a842-90338ef906bd" />
+<img width="1920" height="957" alt="6" src="https://github.com/user-attachments/assets/d30ca967-e5d0-41cd-b4f0-b2bd2ab297a1" />
+
+
+
+
+
+
+
+
