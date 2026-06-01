@@ -1,5 +1,5 @@
 # Robot info
-<img width="800" height="600" alt="Axis-1" src="https://github.com/user-attachments/assets/ba8798f1-f9b3-422b-858a-d03afb3b4edc" />
+<img width="1024" height="768" alt="Axis_new" src="https://github.com/user-attachments/assets/185d9d19-7d39-4c91-9bef-6c0cffe624e1" />
 
 **Name:** Axis 
 
