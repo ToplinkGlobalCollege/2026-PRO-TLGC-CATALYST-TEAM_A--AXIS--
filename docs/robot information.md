@@ -39,7 +39,7 @@ We don’t just wander we drive the way forward.
 # Mobility
 
 ## Drive System Used
-Our EV3 autonomous car uses two LEGO Medium Motors to drive forward, with each motor independently powering a main wheel. This dual-motor setup provides consistent speed for straight movement while allowing us to precisely control steering by varying the speed of each motor. By utilizing Medium Motors instead of a single Large Motor, the car gains a more compact design and faster rotational response, making it highly agile. Additionally, the built-in rotation sensors in both motors help us measure exactly how far each wheel rotates, allowing for precise tracking, smoother turning, and highly accurate autonomous navigation.
+Our EV3 autonomous car uses two Medium Motors to drive forward, with each motor independently powering a main wheel. This dual-motor setup provides consistent speed for straight movement while allowing us to precisely control steering by varying the speed of each motor. By utilizing Medium Motors instead of a single Large Motor, the car gains a more compact design and faster rotational response, making it highly agile. Additionally, the built-in rotation sensors in both motors help us measure exactly how far each wheel rotates, allowing for precise tracking, smoother turning, and highly accurate autonomous navigation.
 
 ## Turning Strategy
 Our EV3 robot uses a custom rack-and-pinion steering mechanism for the front wheels. Instead of a traditional gear rack, we attached a half-gear element to a beam to act as a simplified rack. When driven by the motor, this gear translates the beam laterally, pivoting the front wheels left or right. This mechanical linkage provides smooth, proportional steering, enhancing maneuverability and stability during precise turns and alignment tasks. By simplifying the setup, we reduced mechanical complexity while ensuring reliable performance during runs.
@@ -49,7 +49,7 @@ Our EV3 robot uses a custom rack-and-pinion steering mechanism for the front whe
 <img width="333" height="333" alt="597100100-c9c5783b-2a71-4b0c-8473-82a2a08ac405" src="https://github.com/user-attachments/assets/e8fadf56-2edd-4755-9561-5e4595f5cc35" />
 
 ## Why we chose this system
-We used two Medium Motors to drive our robot because they are compact, lightweight, and provide plenty of power when working together. Instead of using a separate motor just for steering, this dual-motor setup drives both wheels independently to move the robot smoothly across the mat and ensure precise straight driving. The Medium Motors are smaller and quicker than the Large Motors, which keeps the robot from becoming too heavy or bulky while still offering incredible control during turns. This combination of two agile motors helped make our robot both powerful and easy to maneuver.
+We used two Medium Motors to drive our robot because they are compact, lightweight, and provide plenty of power when working together. Instead of using a separate motor just for steering, this dual-motor setup drives both wheels independently to move the robot smoothly across the mat and ensure precise straight driving. The Medium Motors are smaller and quicker than the Large Motor, which keeps the robot from becoming too heavy or bulky while still offering incredible control during turns. This combination of two agile motors helped make our robot both powerful and easy to maneuver.
 
 # Power System
 ## Main Power Source
