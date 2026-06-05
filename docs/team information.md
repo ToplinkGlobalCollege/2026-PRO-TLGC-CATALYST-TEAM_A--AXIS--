@@ -9,4 +9,4 @@ Matthew is a Grade 12 student at Toplink Global College Inc., He excels at mergi
 **Team Placer**                                                                                                                                            
 **Age:15**
 
-Kate is a Grade 11 student at Top Link Global College Inc. She is hardworking and passionate about technology. She enjoys learning new things and improving her skills. Her achievement shows her dedication and effort.
+Kate is a Grade 11 student at Top Link Global College Inc. with a deep passion for technology. She loves learning new things and constantly improving her skills, and her achievements reflect her dedication and effort. Friendly and approachable, Kate excels at making people feel comfortable, offering support whenever it's needed, and bringing positive energy into conversations. She is caring, easy to get along with, and truly values genuine connections with those around her.
