@@ -2,7 +2,7 @@
 This repository contains engineering materials of a self-driven vehicle's model participating in the PRO Future Engineers competition in the season 2026
 
 ## Introduction
-This document presents the technical specifications and design details of the TLGC Catalyst Future Engineer's Team's autonomous vehicle robot for the 2026 Philippine Robotics Olympiad.
+This document presents the technical specifications and design details of the TLGC Catalyst Future Engineer's Team A's autonomous vehicle robot for the 2026 Philippine Robotics Olympiad.
 
 # Content
 **docs**- Contains all documentation for the project, including robot architecture, programming flow, assembly instructions, improvement logs, and team information.
@@ -11,13 +11,13 @@ This document presents the technical specifications and design details of the TL
 
 **media**- Contains visual assets such as robot photos, design diagrams, wiring schematics, and video recordings.
 
-**software**-  Contains all source code for the EV3 robot. This includes the main control program developed using LEGO Mindstorms, which manages motor control and sensor input to perform tasks and navigate the environment.
+**software**-  Contains all source code for the EV3 robot. This includes the main control program developed in Python using Visual Studio Code, which manages motor control and sensor input to perform tasks and navigate the environment.
 
 > [!NOTE]
 > This README.md doesn't contain all the information, some details are inside the folders
 
 ## TLGC Robotics Catalyst Team
-Our team consists of two dedicated members who carefully manage the key aspects of our autonomous vehicle’s development. Representing Toplink Global College, the Future Engineers Team is a passionate group committed to optimizing the essential electromechanical systems that drive our fully autonomous robot.
+Our team consists of two dedicated members who carefully manage the key aspects of our autonomous vehicle’s development. Representing Toplink Global College, Future Engineers Team A is a passionate duo committed to optimizing the essential electromechanical systems that drive our fully autonomous robot.
 
 
 **John Matthew G. De Leon**
@@ -56,13 +56,13 @@ The medium motor is small and fast, which makes it perfect for turning the front
 ### Motor Used For Power
 <img width="2048" height="1542" alt="3" src="https://github.com/user-attachments/assets/dbb6cc4a-45cd-4d17-a2cd-9aafa280be94" />
 
-The medium motor at the back gives the robot its main driving power. It provides strong and steady movement, allowing the robot to move with good speed and stability. This setup steering in the front and power in the back keeps the robot balanced and allows it to move smoothly, turn precisely, and stay in control on the mat field during the competition.
+The two medium motors at the back give the robot its main driving power. They provide strong and steady movement, allowing the robot to move with good speed and stability. This setup steering in the front and power in the back keeps the robot balanced and allows it to move smoothly, turn precisely, and stay in control on the competition mat.
 
 ## Engineering Principle
 
-Based on a simple engineering principle "Use the right tool for the right job". Steering doesn’t need a lot of power instead it needs to be quick and light. That’s why we chose the medium motor. It’s smaller, faster, and helps the robot turn smoothly without slowing it down. Driving the robot forward, on the other hand, needs speed and stability. That’s where the medium motor comes in. It’s more powerful and gives the robot the force it needs to move across the mat with steady speed and control. Putting it at the back also helps the robot stay balanced and keeps the rear wheels from slipping.
+Based on the simple engineering principle "use the right tool for the right job," steering doesn’t need a lot of power; instead, it needs to be quick and light. That’s why we chose a single medium motor for steering. It’s smaller, faster, and helps the robot turn smoothly without slowing it down. Driving the robot forward, on the other hand, needs speed and stability. That’s where the two medium motors come in. They are more powerful together, giving the robot the force it needs to move across the mat with steady speed and control. Putting them at the back also helps the robot stay balanced and keeps the rear wheels from slipping.
 
-This setup follows the principle of separating movement and control we use a light motor for turning and a also a light motor for moving. It makes the robot easier to steer, stronger when driving, and overall more reliable during the competition.
+This setup follows the principle of separating movement and control, we use a medium motor for turning and two medium motors for moving. It makes the robot easier to steer, stronger when driving, and overall more reliable during the competition.
 
 ## Execution Of Steering
 <img width="2048" height="1542" alt="6" src="https://github.com/user-attachments/assets/e1d1dfd0-4cdc-4c5e-81c5-e547cc50e816" />
@@ -73,7 +73,7 @@ Our robot uses a front steering mechanism inspired by the rack and pinion system
 This section covers the power source of the self driving car and the sensors used to provide it with the necessary information to navigate various challenges. It explains the reasoning behind the selection of each sensor and how they are integrated into the car, along with details on power consumption. A wiring diagram is also included for reference.
 
 ## Energy Source
-We’ve powered our self-driving car using the EV3 rechargeable battery, which provides a stable energy supply to ensure smooth and consistent operation. This battery serves as the main power source for our robot.
+We’ve powered our self driving car using the EV3 rechargeable battery, which provides a stable energy supply to ensure smooth and consistent operation. This battery serves as the main power source for our robot.
 
 <img width="1335" height="1696" alt="465793506-5939e7b1-b03f-4d41-bfef-d27653e3c9d5" src="https://github.com/user-attachments/assets/2a172dfd-dd81-4514-ac34-a43ca2e60ee4" />
 
@@ -120,11 +120,11 @@ Because the EV3 uses proprietary ports that aren't natively compatible with the 
 
 <img width="420" height="594" alt="595108374-e59a5707-6b38-432d-afe1-8f324c9f6016" src="https://github.com/user-attachments/assets/a1d3a76a-2382-45c7-abf4-d10f07a20dd5" />
 
-Next, we attached the those wires to jumper wires compatible with the PixyCam2's small pin port. Referencing the Pixy LEGO firmware documentation, we matched the corresponding power, ground, and data lines, enabling the EV3 to recognize the PixyCam2 as a standard LEGO color or ultrasonic sensor. To prevent short circuits, we insulated the connections using electrical tape or heat-shrink tubing. Because both systems operate on a shared 5V power level, we did not need additional voltage conversion or protective circuitry to make it safe
+Next, we attached those wires to jumper wires compatible with the PixyCam2's small pin port. Referencing the Pixy LEGO firmware documentation, we matched the corresponding power, ground, and data lines, enabling the EV3 to recognize the PixyCam2 as a standard LEGO color or ultrasonic sensor. To prevent short circuits, we insulated the connections using electrical tape or heat-shrink tubing. Because both systems operate on a shared 5V power level, we did not need additional voltage conversion or protective circuitry.
 
 <img width="433" height="577" alt="595111388-99acb471-f484-4434-b546-ef1eebb13a45" src="https://github.com/user-attachments/assets/6bdfa4cd-5234-4693-809b-9b5038155a83" />
 
-Once everything was connected, our Python script established immediate communication between the EV3 brick and the PixyCam2. The camera continuously streamed real-time data—such as object locations and color signatures—which our Python code processed to dynamically control the robot's motors and actions. With this software-driven integration, our robot was able to follow lines, detect specific color targets, and track moving objects, delivering the high-performance responsiveness of an advanced machine using just a smart camera and LEGO parts.
+Once everything was connected, our Python script established immediate communication between the EV3 brick and the PixyCam2. The camera continuously streamed real-time data, such as object locations and color signatures which our Python code processed to dynamically control the robot's motors and actions. With this software driven integration, our robot was able to follow lines, detect specific color targets, and track moving objects, delivering the high-performance responsiveness of an advanced machine using just a smart camera and LEGO parts.
 
 To physically support this setup, we mounted the PixyCam2 using the small, L-shaped metal bracket that comes with the camera. By fastening it through the built-in screw holes, we were able to lower the camera's point of view, allowing it to focus sharply on the area directly in front of the robot. We manually adjusted the tilt before tightening the screws to lock it into position; even though this mounting setup wasn't motorized, it kept the camera perfectly stable during operation without requiring any extra parts.
 
