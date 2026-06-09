@@ -5,7 +5,7 @@
 
 **Weight:** 0.6 kg
 
-**Size:** 215mm x 140mm with 225mm in heigt
+**Size:** 215mm x 140mm with 225mm in height
 
 
 > [!NOTE]
