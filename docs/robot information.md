@@ -3,9 +3,9 @@
 
 **Name:** Axis 
 
-**Weight:** 0.6 kg
+**Weight:** 0.82 kg
 
-**Size:** 215mm x 140mm with 225mm in height
+**Size:** 270mm x 140mm with 200mm in height
 
 
 > [!NOTE]
