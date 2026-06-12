@@ -112,6 +112,9 @@ We used Python in Visual Studio Code to program our EV3 robot, managing motor co
 
 ## Obstacle Challenge
 
+<img width="1484" height="871" alt="image" src="https://github.com/user-attachments/assets/966c6e05-4651-4dee-b946-1aac2c9c8b8f" />
+
+
 # Engineering Factor
 We wanted our LEGO EV3 robot to have vision so it could follow lines, detect colors, and respond to objects. To do this, we used a PixyCam2 smart camera equipped with specialized LEGO firmware.
 
