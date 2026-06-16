@@ -160,7 +160,7 @@ We upgraded the robot by switching from a large motor to a medium motor for driv
 <img width="1920" height="957" alt="5" src="https://github.com/user-attachments/assets/c8391eca-ca9a-4fe1-8f29-953056f0b0ca" />
 <img width="1920" height="957" alt="6" src="https://github.com/user-attachments/assets/9cab80f1-1cec-45d1-baff-c09b2c4c40f5" />
 
-# 1.2
+# 2
 <img width="1920" height="957" alt="1" src="https://github.com/user-attachments/assets/54797d77-2fb6-4ee1-ad42-ae09a3992928" />
 <img width="1920" height="957" alt="2" src="https://github.com/user-attachments/assets/24a2a844-8dd4-48c2-8dd0-4e96dc225fa6" />
 <img width="1920" height="957" alt="3" src="https://github.com/user-attachments/assets/c7a8eee0-bc5d-4766-9eb6-d9d9c7dcc0ad" />
