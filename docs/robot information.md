@@ -1,11 +1,11 @@
 # Robot info
-<img width="1024" height="768" alt="Axis_new" src="https://github.com/user-attachments/assets/185d9d19-7d39-4c91-9bef-6c0cffe624e1" />
+<img width="800" height="600" alt="AXIS" src="https://github.com/user-attachments/assets/8271010e-8777-4710-a815-cc11808c9193" />
 
 **Name:** Axis 
 
-**Weight:** 0.82 kg
+**Weight:** 0.71 kg
 
-**Size:** 270mm x 140mm with 200mm in height
+**Size:** 250mm x 120mm with 180mm in height
 
 
 > [!NOTE]
@@ -39,7 +39,7 @@ We don’t just wander we drive the way forward.
 # Mobility
 
 ## Drive System Used
-Our EV3 autonomous car uses two Medium Motors to drive forward, with each motor independently powering a main wheel. This dual-motor setup provides consistent speed for straight movement while allowing us to precisely control steering by varying the speed of each motor. By utilizing Medium Motors instead of a single Large Motor, the car gains a more compact design and faster rotational response, making it highly agile. Additionally, the built-in rotation sensors in both motors help us measure exactly how far each wheel rotates, allowing for precise tracking, smoother turning, and highly accurate autonomous navigation.
+Our EV3 autonomous car uses a Medium Motor to drive forward, powering the main wheels. This motor setup provides consistent speed for straight movement while allowing us to precisely control steering through the front wheels. By utilizing a Medium Motor instead of a Large Motor, the car gains a more compact design and faster rotational response, making it highly agile. Additionally, the built-in rotation sensor in the motor helps us measure exactly how far the wheel rotates, allowing for precise tracking, smoother turning, and highly accurate autonomous navigation.
 
 ## Turning Strategy
 Our EV3 robot uses a custom rack-and-pinion steering mechanism for the front wheels. Instead of a traditional gear rack, we attached a half-gear element to a beam to act as a simplified rack. When driven by the motor, this gear translates the beam laterally, pivoting the front wheels left or right. This mechanical linkage provides smooth, proportional steering, enhancing maneuverability and stability during precise turns and alignment tasks. By simplifying the setup, we reduced mechanical complexity while ensuring reliable performance during runs.
@@ -49,7 +49,7 @@ Our EV3 robot uses a custom rack-and-pinion steering mechanism for the front whe
 <img width="333" height="333" alt="597100100-c9c5783b-2a71-4b0c-8473-82a2a08ac405" src="https://github.com/user-attachments/assets/e8fadf56-2edd-4755-9561-5e4595f5cc35" />
 
 ## Why we chose this system
-We used two Medium Motors to drive our robot because they are compact, lightweight, and provide plenty of power when working together. Instead of using a separate motor just for steering, this dual-motor setup drives both wheels independently to move the robot smoothly across the mat and ensure precise straight driving. The Medium Motors are smaller and quicker than the Large Motor, which keeps the robot from becoming too heavy or bulky while still offering incredible control during turns. This combination of two agile motors helped make our robot both powerful and easy to maneuver.
+We used a Medium Motor to drive our robot and a Medium Motor for steering because they are compact, lightweight, and provide plenty of power. Instead of using a dual-motor setup to drive the wheels independently, this configuration uses a dedicated steering motor to turn the robot smoothly across the mat and ensure precise straight driving. The Medium Motors are smaller and quicker than the Large Motor, which keeps the robot from becoming too heavy or bulky while still offering incredible control during turns. This combination of agile motors helped make our robot both powerful and easy to maneuver.
 
 # Power System
 ## Main Power Source
@@ -70,5 +70,5 @@ To ensure the EV3 robot's safety and reliability, we implemented strict power ma
 
 To improve our robot’s ability to detect visual markers and environmental cues, we mounted the Pixy Cam at the front of the robot, positioned directly above the ultrasonic sensor. This elevated position gives the camera a wider field of view, allowing it to detect obstacles from a greater distance and with fewer blind spots. Placing the camera higher also prevents it from being blocked by parts of the robot’s frame, which improves both its accuracy and response time during object recognition.
 
-For navigation, we mounted the ultrasonic sensor and the Pixy Cam onto a single axle that is connected to a medium motor, allowing the robot to actively scan its surroundings by turning the sensors left, right, or straight ahead. This strategic configuration enables a single sensor to measure both forward and side distances to nearby walls without the added weight of multiple sensors. As a result, the robot receives reliable and consistent environmental data, helping it stay centered in narrow paths or corridors. By dynamically rotating the sensor assembly to compare left and right distance values, the robot can make precise steering adjustments to maintain a straight, balanced course critical for avoiding collisions and achieving consistent lap performance.
+For navigation, we mounted the ultrasonic sensor and the Pixy Cam directly to the robot, allowing it to actively read its surroundings by looking straight ahead. This strategic configuration enables the sensors to measure forward distances and detect nearby objects without the added weight or complexity of moving parts. As a result, the robot receives reliable and consistent environmental data, helping it stay centered in narrow paths or corridors. By constantly processing these distance and visual values, the robot can make precise steering adjustments to maintain a straight, balanced course critical for avoiding collisions and achieving consistent lap performance.
 
