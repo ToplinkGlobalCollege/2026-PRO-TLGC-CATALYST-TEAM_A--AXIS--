@@ -16,6 +16,17 @@ We started by building the basic robot body and wheels. The first version used o
 <img width="1920" height="957" alt="5" src="https://github.com/user-attachments/assets/fa5bf8b0-a6a1-42e8-a842-90338ef906bd" />
 <img width="1920" height="957" alt="6" src="https://github.com/user-attachments/assets/d30ca967-e5d0-41cd-b4f0-b2bd2ab297a1" />
 
+## Robot Improvements Made in June
+We enhanced the robot’s design by transitioning from two medium motors to a single medium motor for driving, which significantly reduced overall weight and power consumption. To streamline the system, the ultrasonic sensor and Pixy Cam were removed from the rotating assembly and placed in fixed positions, eliminating unnecessary moving parts while ensuring stable data collection. Additionally, the entire layout was restructured into a more compact design to better accommodate our spatial constraints. These refinements collectively enhanced the robot’s agility, overall wall navigation, and stability.
+### 2
+<img width="1920" height="957" alt="1" src="https://github.com/user-attachments/assets/27c7e91e-2ff9-46ca-97b7-28b19827d36a" />
+<img width="1920" height="957" alt="2" src="https://github.com/user-attachments/assets/df137ef6-5a9a-4e57-9547-665a615d07f3" />
+<img width="1920" height="957" alt="3" src="https://github.com/user-attachments/assets/b5bc5bc0-b5f8-4187-b707-d3d2b4b466c0" />
+<img width="1920" height="957" alt="4" src="https://github.com/user-attachments/assets/c0fd37d0-b9b4-4a1a-94bf-15eb97e9dc9c" />
+<img width="1920" height="957" alt="5" src="https://github.com/user-attachments/assets/caf4091a-ba1d-4ed4-8fb1-1e27a8a4c542" />
+<img width="1920" height="957" alt="6" src="https://github.com/user-attachments/assets/3c627f6d-c5c8-4279-8a5e-bcae7f1861da" />
+
+
 
 
 
