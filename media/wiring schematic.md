@@ -1,2 +1,1 @@
-<img width="3048" height="4064" alt="Untitled design" src="https://github.com/user-attachments/assets/9d0e8f99-3c3a-4291-87e3-2abacf48aac2" />
-
+<img width="3048" height="4064" alt="Wiring schematic-Axis" src="https://github.com/user-attachments/assets/d666a2c0-68c5-430e-ab91-24e2551cacca" />
