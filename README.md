@@ -42,30 +42,30 @@ Our autonomous self-driving car was developed using the LEGO Mindstorms EV3 Educ
 # Chassis
 
 ## Selection Of Wheel
-<img width="2048" height="1542" alt="Wheel" src="https://github.com/user-attachments/assets/2aeb90a1-a1b8-4fd7-9578-3515aa68f9ea" />
+<img width="4096" height="3072" alt="1" src="https://github.com/user-attachments/assets/bb04da21-d9c6-4dbe-9e53-f9c4aef949e4" />
 
 We selected the Wheel 44309 with Rim 56145 at the front and the Wheel 49295 at the rear to optimize our robot’s performance on a mat field. The front wheels are lightweight and have a low friction, narrow profile, which allows for quick, smooth turns with minimal resistance perfect for precise navigation on a smooth surface. Their design supports agile repositioning during autonomous routines where accuracy and responsiveness are critical. This configuration delivers an ideal balance of maneuverability at the front and powerful drive at the back, allowing the robot to move efficiently, accurately, and reliably on a mat based competition field
 
 ## Execution of Motors And Its Engineering Factor
 
 ### Motor Used For Steering
-<img width="2048" height="1542" alt="2" src="https://github.com/user-attachments/assets/65a22a84-cb60-41ae-98f4-9eeb44d05145" />
+<img width="4096" height="3072" alt="2" src="https://github.com/user-attachments/assets/51733e1e-7d0a-4b89-aba2-dcc2999dfbe0" />
 
 The medium motor is small and fast, which makes it perfect for turning the front wheels quickly and smoothly. This helps the robot steer accurately when changing direction or making turns on the mat.
 
 ### Motor Used For Power
-<img width="2048" height="1542" alt="3" src="https://github.com/user-attachments/assets/dbb6cc4a-45cd-4d17-a2cd-9aafa280be94" />
+<img width="4096" height="3072" alt="3" src="https://github.com/user-attachments/assets/591ced3c-017e-47a4-89d5-a32e7d792737" />
 
-The two medium motors at the back give the robot its main driving power. They provide strong and steady movement, allowing the robot to move with good speed and stability. This setup steering in the front and power in the back keeps the robot balanced and allows it to move smoothly, turn precisely, and stay in control on the competition mat.
+The medium motor at the back gives the robot its main driving power. It provides steady movement, allowing the robot to move with good speed and stability. This setup steering in the front and power in the back keeps the robot balanced and allows it to move smoothly, turn precisely, and stay in control on the competition mat.
 
 ## Engineering Principle
 
-Based on the simple engineering principle "use the right tool for the right job," steering doesn’t need a lot of power; instead, it needs to be quick and light. That’s why we chose a single medium motor for steering. It’s smaller, faster, and helps the robot turn smoothly without slowing it down. Driving the robot forward, on the other hand, needs speed and stability. That’s where the two medium motors come in. They are more powerful together, giving the robot the force it needs to move across the mat with steady speed and control. Putting them at the back also helps the robot stay balanced and keeps the rear wheels from slipping.
+Based on the simple engineering principle "use the right tool for the right job," steering doesn’t need a lot of power; instead, it needs to be quick and light. That’s why we chose a medium motor for steering. It’s smaller, faster, and helps the robot turn smoothly without slowing it down. Driving the robot forward, on the other hand, needs speed and stability. That’s where the medium motor at the back comes in. It provides steady power, giving the robot the force it needs to move across the mat with reliable speed and control. Putting it at the back also helps the robot stay balanced and keeps the rear wheels from slipping.
 
-This setup follows the principle of separating movement and control, we use a medium motor for turning and two medium motors for moving. It makes the robot easier to steer, stronger when driving, and overall more reliable during the competition.
+This setup follows the principle of separating movement and control, we use a medium motor for turning and a medium motor for moving. It makes the robot easier to steer, efficient when driving, and overall more reliable during the competition.
 
 ## Execution Of Steering
-<img width="2048" height="1542" alt="6" src="https://github.com/user-attachments/assets/e1d1dfd0-4cdc-4c5e-81c5-e547cc50e816" />
+<img width="4096" height="3072" alt="4" src="https://github.com/user-attachments/assets/9dfa4e79-32a4-4fce-a66b-b00ddf8a712a" />
 
 Our robot uses a front steering mechanism inspired by the rack and pinion system to control its direction. Instead of a full gear rack, we used a half gear piece connected to a beam. When the gear rotates, it pushes the beam side to side, which turns the front wheels left or right. This setup allows the robot to steer smoothly and accurately, making it easier to change direction on the mat. The system provides controlled and stable movement during turns, helping the robot navigate the field more consistently during competitions.
 
@@ -80,22 +80,22 @@ We’ve powered our self driving car using the EV3 rechargeable battery, which p
 ### Ultrasonic Sensor
 Our robot uses  one ultrasonic sensors to measure how close it is to the wall of the field. These sensors send out sound waves and wait for them to bounce back. The time it takes tells the robot how far away something is.
 
-<img width="2048" height="1542" alt="4" src="https://github.com/user-attachments/assets/a6a87f3e-4221-4b02-bf4c-373a4dc9a10c" />
+<img width="4096" height="3072" alt="5" src="https://github.com/user-attachments/assets/4744afdf-9e2a-4b99-a875-6a76b5d0967c" />
 
 At first, our robot used color sensor which detects colors on the sides of the field to know when to turn. If it detects a color, it would turn in that direction according to the color detected. This method worked at the start, but it wasn’t always reliable sometimes the colors were hard to detect due to lighting or faded markings. To make things more stable, we switched to using an ultrasonic sensor to guide the robot using the wall. This sensor measures how close the robot is to the wall. When it shows the correct distance, the robot stays centered. If it gets too close to the wall, it gently turns to correct itself. This wall following method made the robot more accurate and allowed it to turn smoothly without needing color lines at all.
 
 ### Gyro Sensor
-<img width="2048" height="1542" alt="8" src="https://github.com/user-attachments/assets/4fdc9dca-c2c0-4733-9c61-999868c029cd" />
+<img width="4096" height="3072" alt="7" src="https://github.com/user-attachments/assets/3891738e-28f3-4e0c-893d-88f387cce786" />
 
 A gyro sensor is attached, It helps the robot measure how many full turns or laps it has made. One full spin is 360 degrees, so the sensor keeps adding up the angle as the robot rotates. We programmed the robot to stop when it reaches 1100 degrees, which is just a little more than three full laps. This lets the robot turn around smoothly and return close to its starting point. Once it reaches that point, it stops, making sure it doesn’t over rotate or get off track.
 
 ### Pixy Camera 
-<img width="2048" height="1542" alt="5" src="https://github.com/user-attachments/assets/9aeaf807-21a5-4838-889e-11e5fa61b5c2" />
+<img width="4096" height="3072" alt="6" src="https://github.com/user-attachments/assets/351d2861-0961-4962-b128-f68d775ec232" />
 
 Our robot uses a pixy2 camera helps the robot detect colored objects in front of it. In our setup, it looks for two specific colors: green and red. These colors tell the robot which way to go when it sees an obstacle. If the Pixy2 sees a green object, the robot knows it should turn left. If it sees a red object, the robot will turn right. This helps the robot make quick decisions during the run and choose the correct path based on what color it detects ahead.
 
 ### Color Sensor
-<img width="2048" height="1542" alt="7" src="https://github.com/user-attachments/assets/75e35cc0-a9df-44af-906f-94874dfe53c2" />
+<img width="4096" height="3072" alt="8" src="https://github.com/user-attachments/assets/41a8ed5b-6188-4676-8e32-ce3a226c159b" />
 
 A color sensor is attached, helping the robot count laps by tracking colored lines on the track. As it drives, the sensor looks down at the floor to detect when the surface color changes. We programmed the robot to recognize the blue and orange lines, adding a lap to its counter each time it crosses them. This allows the robot to keep an accurate tally of its progress automatically. Once it reaches the target number of laps, it stops right on cue, ensuring it finishes its run precisely where it's supposed to.
 
@@ -127,13 +127,13 @@ Next, we attached those wires to jumper wires compatible with the PixyCam2's sma
 
 <img width="433" height="577" alt="595111388-99acb471-f484-4434-b546-ef1eebb13a45" src="https://github.com/user-attachments/assets/6bdfa4cd-5234-4693-809b-9b5038155a83" />
 
-Once everything was connected, our Python script established immediate communication between the EV3 brick and the PixyCam2. The camera continuously streamed real-time data, such as object locations and color signatures which our Python code processed to dynamically control the robot's motors and actions. With this software driven integration, our robot was able to follow lines, detect specific color targets, and track moving objects, delivering the high-performance responsiveness of an advanced machine using just a smart camera and LEGO parts.
+Once everything was connected, our Python script established immediate communication between the EV3 brick and the PixyCam2. The camera continuously streamed real-time data, such as object locations and color signatures which our Python code processed to dynamically control the robot's motors and actions. With this software driven integration, our robot was able to follow lines, detect specific color targets, and track moving objects, delivering the high performance responsiveness of an advanced machine using just a smart camera and LEGO parts.
 
 To physically support this setup, we mounted the PixyCam2 using the small, L-shaped metal bracket that comes with the camera. By fastening it through the built-in screw holes, we were able to lower the camera's point of view, allowing it to focus sharply on the area directly in front of the robot. We manually adjusted the tilt before tightening the screws to lock it into position; even though this mounting setup wasn't motorized, it kept the camera perfectly stable during operation without requiring any extra parts.
 
 # Improvements
 
-We upgraded the robot by switching from a single large motor to two medium motors for driving, which gives the robot better control and a more compact design. We also reduced our setup from two ultrasonic sensors down to just one ultrasonic sensor, making enough physical space to fit both a color sensor and a gyro sensor for better navigation. Regarding the vision system, we moved the camera from the top of the robot to the front, positioning it right above the steering motor for a clearer view. Lastly, we changed the steering wheel to a smaller size and kept the larger rear wheels, giving the robot improved turning precision, better traction, and smoother overall movement on the mat.
+We upgraded the robot by switching from a large motor to a medium motor for driving, which gives the robot better control and a more compact design. We also reduced our setup from two ultrasonic sensors down to just one ultrasonic sensor, making enough physical space to fit both a color sensor and a gyro sensor for better navigation. Regarding the vision system, we moved the camera from the top of the robot to the front, positioning it right above the steering motor for a clearer view. Lastly, we changed the steering wheel to a smaller size and kept the larger rear wheels, giving the robot improved turning precision, better traction, and smoother overall movement on the mat.
 
 # 1
 
@@ -151,6 +151,14 @@ We upgraded the robot by switching from a single large motor to two medium motor
 <img width="1920" height="957" alt="4" src="https://github.com/user-attachments/assets/1a3368d6-bd33-499c-b1e4-a321088f8c09" />
 <img width="1920" height="957" alt="5" src="https://github.com/user-attachments/assets/c8391eca-ca9a-4fe1-8f29-953056f0b0ca" />
 <img width="1920" height="957" alt="6" src="https://github.com/user-attachments/assets/9cab80f1-1cec-45d1-baff-c09b2c4c40f5" />
+
+# 1.2
+<img width="1920" height="957" alt="1" src="https://github.com/user-attachments/assets/54797d77-2fb6-4ee1-ad42-ae09a3992928" />
+<img width="1920" height="957" alt="2" src="https://github.com/user-attachments/assets/24a2a844-8dd4-48c2-8dd0-4e96dc225fa6" />
+<img width="1920" height="957" alt="3" src="https://github.com/user-attachments/assets/c7a8eee0-bc5d-4766-9eb6-d9d9c7dcc0ad" />
+<img width="1920" height="957" alt="4" src="https://github.com/user-attachments/assets/dcfadd00-a757-4b16-b29f-49ccd5786eee" />
+<img width="1920" height="957" alt="5" src="https://github.com/user-attachments/assets/21a35be2-53b2-4ea4-8532-40c12944b2b0" />
+<img width="1920" height="957" alt="6" src="https://github.com/user-attachments/assets/a3143d34-a0df-4f58-a481-a3475ebdf94c" />
 
 # Credits
 
