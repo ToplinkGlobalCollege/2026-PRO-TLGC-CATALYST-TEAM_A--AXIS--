@@ -106,13 +106,21 @@ We used Python in Visual Studio Code to program our EV3 robot, managing motor co
 
 
 # Code Management
-## Open challenge
 
+## Open challenge
 <img width="1646" height="880" alt="image" src="https://github.com/user-attachments/assets/08d0403d-067c-4cea-a052-5c687eeebaed" />
 
-## Obstacle Challenge
+> [!NOTE]
+> The code starts from the top to bottom 
 
+
+
+## Obstacle Challenge
 <img width="1484" height="871" alt="image" src="https://github.com/user-attachments/assets/966c6e05-4651-4dee-b946-1aac2c9c8b8f" />
+
+> [!NOTE]
+> The code starts from the top to bottom
+
 
 
 # Engineering Factor
