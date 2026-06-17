@@ -111,16 +111,24 @@ We used Python in Visual Studio Code to program our EV3 robot, managing motor co
 <img width="1646" height="880" alt="image" src="https://github.com/user-attachments/assets/08d0403d-067c-4cea-a052-5c687eeebaed" />
 
 > [!NOTE]
-> The code starts from the top to bottom 
+> The code starts from the top to bottom
 
+To maintain our robot's direction along a target racing line or path, we utilized a Gyro sensor placed at the middle and a front facing ultrasonic sensor on the chassis. These sensors continuously measure the robot’s current driving angle from the center of the vehicle and the distance to any upcoming walls directly in front of it. The key idea is to calculate the difference between the current gyro angle and the target heading this difference is treated as the system’s heading error. We process this error through an advanced math engine combining an LQR controller, Stanley path tracking, and an anti drift integral term to determine exactly how much the robot should steer.
+
+This method, called an LQR-augmented Stanley fusion controller, lets our robot automatically adjust its direction depending on how far it has drifted from its path and how fast it is moving. For example, if the current gyro angle is greater than the target heading, the robot is drifting off course to one side and needs to apply a calculated steering correction to pull itself back into alignment, smoothing out straightaways to avoid mechanical jitter while reacting with snappy, instant movements during sharp turns. Whenever the front ultrasonic sensor detects that a wall is too close, the robot automatically adds 90 degrees to its target heading and resets its drift history. This feedback system allows the robot to constantly make small adjustments to stay perfectly aligned with its route.
 
 
 ## Obstacle Challenge
-<img width="1484" height="871" alt="image" src="https://github.com/user-attachments/assets/966c6e05-4651-4dee-b946-1aac2c9c8b8f" />
+<img width="1481" height="917" alt="Screenshot (102)" src="https://github.com/user-attachments/assets/fea38676-c0fd-45df-a6db-8632a2229865" />
 
 > [!NOTE]
 > The code starts from the top to bottom
 
+Our robot was designed to move by itself, navigate complex racing tracks, and avoid colored pillars in its path. To do this, we combined three types of sensors: a Gyro sensor, a front ultrasonic sensor, and a Pixy Cam. The Gyro sensor acts like the robot’s internal compass, constantly measuring its driving angle to keep it on the main racing line. If the robot drifts off course, it automatically steers back toward the center. This is done using a method called proportional control, where the robot adjusts its steering based on its tracking error the farther it drifts from its path, the more it turns to correct its trajectory.
+
+But staying on the track isn’t enough. The robot also needs to handle sharp corners and avoid pillars that appear directly in front of it. The front ultrasonic sensor measures the distance to walls, automatically triggering a calculated mechanical turn sequence whenever a wall gets too close. Once a turn is complete, the Pixy Cam takes over to spot traffic pillars. The camera is trained to recognize specific colors: red means steer right, and green means steer left. When the camera spots a colored pillar, the robot temporarily ignores its path sensors and follows visual commands to safely evade the obstacle. Once the pillar is cleared, the robot switches back to using the Gyro sensor to maintain its high speed racing line.
+
+By combining gyroscopic stability, distance sensing, and visual detection, our robot can smoothly and intelligently navigate its environment. It knows when to maintain its optimal path and when to react quickly to colored obstacles in its way, making it reliable and adaptable for autonomous competition.
 
 
 # Engineering Factor
