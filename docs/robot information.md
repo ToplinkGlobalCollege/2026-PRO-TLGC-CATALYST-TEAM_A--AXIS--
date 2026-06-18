@@ -13,7 +13,7 @@
 
 # A short trivia!
 The Meaning of "Axis"
-​In mathematics, an axis is a straight line used to reference coordinates, establish balance, and guide geometric direction. It plays a vital role, it doesn’t just exist in space, but it makes movement accurate, balanced, and perfectly aligned.
+​ In mathematics, an axis is a straight line used to reference coordinates, establish balance, and guide geometric direction. It plays a vital role, it doesn’t just exist in space, but it makes movement accurate, balanced, and perfectly aligned.
 
 ​But over time, the meaning of the word “axis” has grown far beyond graphs and geometry. In modern usage, especially in engineering, leadership, and life, an axis is:
 
