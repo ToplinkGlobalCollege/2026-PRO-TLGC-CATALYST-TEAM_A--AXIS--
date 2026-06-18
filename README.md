@@ -87,7 +87,7 @@ At first, our robot used color sensor which detects colors on the sides of the f
 ### Gyro Sensor
 <img width="4096" height="3072" alt="7" src="https://github.com/user-attachments/assets/3891738e-28f3-4e0c-893d-88f387cce786" />
 
-A gyro sensor is attached, It helps the robot measure how many full turns or laps it has made. One full spin is 360 degrees, so the sensor keeps adding up the angle as the robot rotates. We programmed the robot to stop when it reaches 1100 degrees, which is just a little more than three full laps. This lets the robot turn around smoothly and return close to its starting point. Once it reaches that point, it stops, making sure it doesn’t over rotate or get off track.
+A gyro sensor is attached, It helps the robot measure how many full turns or laps it has made. One full lap is 360 degrees, so the sensor keeps adding up the angle as the robot rotates. We programmed the robot to stop when it reaches 1100 degrees, which is just a little more than three full laps. This lets the robot turn around smoothly and return close to its starting point. Once it reaches that point, it stops, making sure it doesn’t over rotate or get off track.
 
 ### Pixy Camera 
 <img width="4096" height="3072" alt="6" src="https://github.com/user-attachments/assets/351d2861-0961-4962-b128-f68d775ec232" />
