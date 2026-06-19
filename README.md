@@ -19,12 +19,14 @@ This document presents the technical specifications and design details of the TL
 ## TLGC Robotics Catalyst Team
 Our team consists of two dedicated members who carefully manage the key aspects of our autonomous vehicle’s development. Representing Toplink Global College, Future Engineers Team A is a passionate duo committed to optimizing the essential electromechanical systems that drive our fully autonomous robot.
 
+<img width="1000" height="977" alt="722181738_994903296573487_8280201626347347917_n" src="https://github.com/user-attachments/assets/0ebfd7f6-f690-47ca-9d5f-a9ce3007119e" />
 
-**John Matthew G. De Leon**
+
+**John Matthew G. De Leon** (Left)
 
 [![Facebook](https://img.shields.io/badge/Facebook-Follow-1877F2?style=flat&logo=facebook&logoColor=white)](https://www.facebook.com/matthew.deleon.969300)
 
-**Kate Asly S. Gabuat**
+**Kate Asly S. Gabuat** (Right)
 
 [![Facebook](https://img.shields.io/badge/Facebook-Follow-1877F2?style=flat&logo=facebook&logoColor=white)](https://www.facebook.com/kate.gabuat.2025)
 
